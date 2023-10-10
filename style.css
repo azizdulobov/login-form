@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient( to right,  royalblue, teal );
+    font-family: sans-serif;
+}
+.main-form label {
+    color: aliceblue;
+    font-size: 25px;
+}
+.main-form  {
+    font-size: 100%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 2px solid whitesmoke;
+    padding: 5%;
+    border-radius: 10px;
+    background: linear-gradient(to left, royalblue, teal);
+}
+.main-form input {
+    border: 2px solid lightgreen;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 7px;
+    background: linear-gradient( to left, teal, royalblue);
+}
+.button {
+    position: absolute;
+    bottom: 35px;
+    width: 75%;
+    left: 60px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    font-size: 24px;
+    margin: 5px;
+    background: linear-gradient(to right, #00ff00,  aquamarine, #00ff00, aquamarine, #00ff00);
+}
+.button:hover {
+    background: aqua;
+    padding: 5px ;
+}
